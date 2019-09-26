@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- pembuka file html -->
+<html>
+<!-- pembuka tag head yang berfungsi sebagai kepala dari dokumen html -->
+
+<head>
+    <!-- tag title berfungsi sebagai judul dari dokumen html yang kita buat -->
+    <title>Belajar JavaScript di Jti.polije</title>
+    <script>
+        a = 5;
+        b = 7;
+        c = b / 0;
+        console.log(c); // Hasil: Infinity (division by zero)
+        d = 12 / 0;
+        console.log(d); // Hasil: Infinity (division by zero)
+        e = 1 + Math.pow(10,309);
+        console.log(e); // Hasil: Infinity (overflow)
+        f = -Math.pow(10,309) - 1;
+        console.log(f); // Hasil: -Infinity (negative infinity)
+        g = b + e;
+        console.log(g); // Hasil: Infinity (karena e dan b infinity)
+        h = 0/0;
+        console.log(h); // Hasil: NaN
+        i = Math.sqrt(-25);
+        console.log(i); // Hasil: NaN (akar kuadrat negatif)
+        j = c / d
+        console.log(j); // Hasil: NaN (c dan d sama-sama bernilai infinity)
+    </script>
+    <!-- penutup tag head -->
+    <!-- pembuka tag body yang berfungsi untuk menampilkan isi dokumen html kita -->
+</head>
+
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p>Saya sedang belajar JavaScript di jti.polije.com</p>
+    <p>Belajar Web Programming di Jti.polije.</p>
+</body>
+
+</html>
